@@ -28,8 +28,8 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
-    BUILD_FINGERPRINT=google/mako/mako:7.0/NRD90M/3085278:user/release-keys \
-    PRIVATE_BUILD_DESC="mako-user 7.0 NRD90M 3085278 release-keys"
+    BUILD_FINGERPRINT=google/mako/mako:7.0/NRD90U/3155372:user/release-keys \
+    PRIVATE_BUILD_DESC="mako-user 7.0 NRD90U 3155372 release-keys"
 
 # Set a proper title for kernel build
 export LOCALVERSION=-N4-nougat-7.0-stock-r01
