@@ -13,12 +13,10 @@
 # limitations under the License.
 
 #pure nexus versioning
-ifndef PURENEXUS_BUILD_TYPE
-    PURENEXUS_BUILD_TYPE := HOMEMADE
-endif
+PURENEXUS_BUILD_TYPE := CUSTOM
 
-NEXUS_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(PURENEXUS_BUILD_TYPE)
+NEXUS_VERSION := neXus4ever_mako-$(shell date +%Y%m%d)-$(PURENEXUS_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.purenexus.version=$(NEXUS_VERSION)
+    ro.nexus4ever.version=$(NEXUS_VERSION)
 
