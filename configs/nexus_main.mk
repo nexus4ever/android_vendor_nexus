@@ -28,3 +28,7 @@ PRODUCT_PACKAGES += \
 # Include KernelAdiutor Mod 
 PRODUCT_PACKAGES += \
     KernelAdiutor
+
+# Superuser
+PRODUCT_PACKAGES += \
+    Superuser
