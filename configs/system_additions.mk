@@ -65,3 +65,16 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
 
+# Superuser
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/superuser/su:root/sbin/su \
+    vendor/nexus/prebuilt/common/superuser/init.superuser.rc:root/init.superuser.rc
+
+PRODUCT_PACKAGES += \
+    Superuser
+
+# Init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/nexus/prebuilt/common/etc/init.d.rc:root/init.d.rc
+
