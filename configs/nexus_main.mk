@@ -24,3 +24,7 @@ PRODUCT_PACKAGES += \
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox
+
+# Include KernelAdiutor Mod 
+PRODUCT_PACKAGES += \
+    KernelAdiutor
