@@ -12,10 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#pure nexus versioning
-PURENEXUS_BUILD_TYPE := CUSTOM
-
-NEXUS_VERSION := neXus4ever_mako-$(shell date +%Y%m%d)-$(PURENEXUS_BUILD_TYPE)
+NEXUS_VERSION := NeXus4ever_mako-$(shell date +%Y%m%d)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nexus4ever.version=$(NEXUS_VERSION)
