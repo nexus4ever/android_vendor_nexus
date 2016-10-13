@@ -32,5 +32,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mako-user 7.0 NRD90U 3155372 release-keys"
 
 # Set a proper title for kernel build
-export LOCALVERSION=-NeXus4ever-Nougat-7.0-r01
+export LOCALVERSION=-NeXus4ever-Basic-Nougat-Kernel-r01
 
