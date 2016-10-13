@@ -22,7 +22,7 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 PRODUCT_NAME := nexus_mako
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := mako
-PRODUCT_MODEL := Nexus 4
+PRODUCT_MODEL := Pixel
 PRODUCT_MANUFACTURER := LGE
 
 # Device Fingerprint
