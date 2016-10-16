@@ -18,13 +18,7 @@ PRODUCT_COPY_FILES += \
 
 # PureNexus-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc \
-    vendor/nexus/prebuilt/etc/00banner:system/etc/init.d/00banner
-
-# Superuser
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/superuser/su:root/sbin/su \
-    vendor/nexus/prebuilt/superuser/init.superuser.rc:root/init.superuser.rc
+    vendor/nexus/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
 
 # Backup Tool
 PRODUCT_COPY_FILES += \

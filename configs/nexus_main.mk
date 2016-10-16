@@ -30,10 +30,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KernelAdiutor
 
-# Superuser
-PRODUCT_PACKAGES += \
-    Superuser
-
 # Extra Packages
 PRODUCT_PACKAGES += \
     PixelLauncher \
