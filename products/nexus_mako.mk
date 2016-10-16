@@ -34,3 +34,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set a proper title for kernel build
 export LOCALVERSION=-NeXus4ever-Basic-Nougat-Kernel-r01
 
+EXCLUDE_SYSTEMUI_TESTS := true
+
