@@ -33,3 +33,9 @@ PRODUCT_PACKAGES += \
 # Superuser
 PRODUCT_PACKAGES += \
     Superuser
+
+# Extra Packages
+PRODUCT_PACKAGES += \
+    PixelLauncher \
+    WallpaperPicker
+
