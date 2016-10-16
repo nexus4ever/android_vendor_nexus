@@ -25,3 +25,7 @@ ifneq ($(filter nexus_shamu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/nexus/prebuilt/bootanimation/shamu.zip:system/media/bootanimation.zip
 endif
+ifneq ($(filter nexus_mako,$(TARGET_PRODUCT)),)
+    PRODUCT_COPY_FILES += \
+        vendor/nexus/prebuilt/bootanimation/mako.zip:system/media/bootanimation.zip
+endif
