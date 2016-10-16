@@ -19,8 +19,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Main Required Packages
 PRODUCT_PACKAGES += \
     DeskClock \
+    ExactCalculator \
+    Gallery2 \
     LockClock \
-    LiveWallpapersPicker
+    LiveWallpapersPicker \
+    Messaging \
+    Terminal
 
 # Busybox
 PRODUCT_PACKAGES += \
