@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     LockClock \
     LiveWallpapersPicker \
-    Messaging \
+    messaging \
     Terminal
 
 # Busybox
