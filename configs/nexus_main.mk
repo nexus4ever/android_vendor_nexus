@@ -35,13 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KernelAdiutor
 
-# Extra Packages
-PRODUCT_PACKAGES += \
-    NexusLauncherIcons \
-    PixelLauncher \
-    NexusWallpapers \
-    WallpaperPicker
-
 # Telephony dialer fix
 PRODUCT_PACKAGES += \
     telephony-ext
