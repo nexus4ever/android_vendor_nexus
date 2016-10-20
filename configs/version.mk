@@ -12,7 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-NEXUS_VERSION := NeXus4ever_mako-$(shell date +%Y%m%d)
+BUILD_VERSION := 7.0-r02
+
+NEXUS_VERSION := NeXus4ever_mako-$(BUILD_VERSION)-$(shell date +%Y%m%d)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nexus4ever.version=$(NEXUS_VERSION)
