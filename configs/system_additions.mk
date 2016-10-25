@@ -41,3 +41,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1
 
+# Disable lock rotation on SetupWizard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.setupwizard.rotation_locked=true
+
