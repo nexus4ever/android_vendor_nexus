@@ -39,3 +39,10 @@ PRODUCT_PACKAGES += \
     PixelLauncher \
     WallpaperPicker
 
+# Telephony dialer fix
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
