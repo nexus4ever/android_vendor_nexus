@@ -45,3 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
 
+# Copy APNs
+ PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+
