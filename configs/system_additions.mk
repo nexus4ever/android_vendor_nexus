@@ -49,3 +49,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
  PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Snap Camera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
+
+# Unbreak videorecording with Snap Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.camera.cpp.duplication=false
+
+
