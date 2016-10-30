@@ -27,9 +27,9 @@ PRODUCT_MANUFACTURER := LGE
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=occam \
-    BUILD_FINGERPRINT=google/mako/mako:7.0/NBD90Z/3264873:user/release-keys \
-    PRIVATE_BUILD_DESC="mako-user 7.0 NBD90Z 3264873 release-keys"
+    PRODUCT_NAME=marlin \
+    BUILD_FINGERPRINT=google/marlin/marlin:7.1/NDE63P/3332229:user/release-keys \
+    PRIVATE_BUILD_DESC="marlin-user 7.1 NDE63P 3332229 release-keys"
 
 # Set a proper title for kernel build
 export LOCALVERSION=-NeXus4ever-Basic-Nougat-Kernel-r01
