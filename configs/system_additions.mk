@@ -37,6 +37,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
     persist.service.adb.enable=1
 
+# Enable Storage manager
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.storage_manager.enabled=1
+
 # Disable HDCP check
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1
