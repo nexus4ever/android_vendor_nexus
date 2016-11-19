@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += \
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    GoogleDialer \
     NexusLauncherIcons \
     PixelLauncher \
     NexusWallpapers \

@@ -1,15 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-# Install GoogleDialer
-include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleDialer
-LOCAL_SRC_FILES := GoogleDialer/GoogleDialer.apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PRIVILEGED_MODULE := false
-include $(BUILD_PREBUILT)
-
 # Install KernelAdiutor
 include $(CLEAR_VARS)
 LOCAL_MODULE := KernelAdiutor
