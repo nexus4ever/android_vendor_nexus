@@ -20,6 +20,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     DeskClock \
     ExactCalculator \
+    Camera2 \
     Gallery2 \
     LockClock \
     LiveWallpapersPicker \
