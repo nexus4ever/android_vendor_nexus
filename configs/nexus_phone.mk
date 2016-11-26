@@ -17,6 +17,7 @@ include vendor/nexus/configs/bootanimation.mk
 include vendor/nexus/configs/nexus_main.mk
 include vendor/nexus/configs/system_additions.mk
 include vendor/nexus/configs/version.mk
+include vendor/nexus/pixel-mods/pixel_mods.mk
 
 # Telephony packages
 PRODUCT_PACKAGES += \
