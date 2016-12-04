@@ -49,6 +49,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
 
+# Disable atlas service at start-up to save memory
+PRODUCT_PROPERTY_OVERRIDES += \
+    config.disable_atlas=true
+
 # Copy APNs
  PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
