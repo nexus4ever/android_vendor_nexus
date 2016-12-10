@@ -19,3 +19,6 @@ NEXUS_VERSION := NeXus4ever_mako-$(BUILD_VERSION)-$(shell date +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nexus4ever.version=$(NEXUS_VERSION)
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_BUILD_TYPE=user
+
