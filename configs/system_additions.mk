@@ -86,3 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/nexus/prebuilt/common/etc/init.d.rc:root/init.d.rc
 
+# Damn, build masquerade
+
+PRODUCT_PACKAGES += \
+    masquerade
+
