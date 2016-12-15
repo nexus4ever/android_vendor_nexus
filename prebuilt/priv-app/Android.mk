@@ -50,5 +50,17 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
 
-
-
+# Install SystemUIGoogle for adding Pixel navbar home button animation
+include $(CLEAR_VARS)
+LOCAL_MODULE := SystemUIGoogle
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_OVERRIDES_PACKAGES := SystemUI
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_OWNER := google
+LOCAL_DEX_PREOPT := false
+LOCAL_SRC_FILES := SystemUIGoogle/SystemUIGoogle.apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)

@@ -6,6 +6,7 @@ PRODUCT_PACKAGES := \
     NexusLauncherIcons \
     PixelLauncher \
     NexusWallpapers \
+    SystemUIGoogle \
     WallpaperPicker
 
 PRODUCT_COPY_FILES := \
