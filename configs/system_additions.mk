@@ -65,13 +65,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.camera.cpp.duplication=false
 
-# DU Utils Library
-PRODUCT_BOOT_JARS += \
-    org.dirtyunicorns.utils
-
-# DU Utils Library
-PRODUCT_PACKAGES += \
-    org.dirtyunicorns.utils
 
 # Superuser
 PRODUCT_COPY_FILES += \
