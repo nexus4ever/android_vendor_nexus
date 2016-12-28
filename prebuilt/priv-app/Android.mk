@@ -1,5 +1,17 @@
 LOCAL_PATH := $(call my-dir)
 
+# Install Gboard
+include $(CLEAR_VARS)
+LOCAL_MODULE := Gboard
+LOCAL_SRC_FILES := Gboard/Gboard.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_PRIVILEGED_MODULE := false
+LOCAL_OVERRIDES_PACKAGES := LatinIME
+LOCAL_MODULE_OWNER := google
+include $(BUILD_PREBUILT)
+
 # Install GoogleDialer
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleDialer
@@ -8,6 +20,8 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := false
+LOCAL_OVERRIDES_PACKAGES := Dialer
+LOCAL_MODULE_OWNER := google
 include $(BUILD_PREBUILT)
 
 # Install KernelAdiutor
