@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     ExactCalculator \
     Camera2 \
-    Gallery2 \
+    SnapdragonGallery \
     LockClock \
     LiveWallpapersPicker \
     messaging \
