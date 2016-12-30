@@ -2,7 +2,6 @@ PRODUCT_PACKAGE_OVERLAYS := \
     vendor/nexus/pixel-mods/overlay-pixel
 
 PRODUCT_PACKAGES := \
-    GoogleDialer \
     PixelSoundResources \
     NexusLauncherIcons \
     PixelLauncher \
