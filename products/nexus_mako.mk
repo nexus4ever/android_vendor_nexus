@@ -28,11 +28,11 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=marlin \
-    BUILD_FINGERPRINT=google/marlin/marlin:7.1.1/NMF26Q/3514931:user/release-keys \
-    PRIVATE_BUILD_DESC="marlin-user 7.1.1 NMF26Q 3514931 release-keys"
+    BUILD_FINGERPRINT=google/marlin/marlin:7.1.1/N6F26Q/3514931:user/release-keys \
+    PRIVATE_BUILD_DESC="marlin-user 7.1.1 N6F26Q 3514931 release-keys"
 
 # Set a proper title for kernel build
-export LOCALVERSION=-NeXus4ever-Basic-Nougat-Kernel-r01
+export LOCALVERSION=-NeXus4ever-Basic-Nougat-Kernel-r02
 
 EXCLUDE_SYSTEMUI_TESTS := true
 
