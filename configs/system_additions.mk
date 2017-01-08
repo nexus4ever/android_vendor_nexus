@@ -65,7 +65,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.camera.cpp.duplication=false
 
-
 # Superuser
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/superuser/su:root/sbin/su \
@@ -80,7 +79,17 @@ PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/etc/init.d.rc:root/init.d.rc
 
 # Damn, build masquerade
-
 PRODUCT_PACKAGES += \
     masquerade
+
+# DragonTC Info
+DRAGONTC_VERSION := 4.0
+export $(DRAGONTC_VERSION)
+
+DTC_PATH := prebuilts/clang/host/linux-x86/$(DRAGONTC_VERSION)
+DTC_VER := $(shell cat $(DTC_PATH)/VERSION)
+export $(DTC_VER)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.dtc.version=$(DTC_VER)
 
