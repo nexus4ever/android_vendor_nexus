@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BUILD_VERSION := 7.1.1-r04
+BUILD_VERSION := 7.1.1-r05
 
 NEXUS_VERSION := NeXus4ever_mako-$(BUILD_VERSION)-$(shell date +%Y%m%d)
 
